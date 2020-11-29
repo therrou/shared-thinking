@@ -170,7 +170,7 @@
                         <div id="lg1" class="tab-pane active">
                             <div class="login-form-container">
                                 <div class="login-register-form">
-                                    <form id='loginForm' action="#" method="post" onsubmit='login(); return false'>
+                                    <form autocomplet="off" id='loginForm' action="#" method="post" onsubmit='login(); return false'>
                                         <input type="text" name="email-login" placeholder="Email">
                                         <input type="password" name="password-login" placeholder="Password">
                                         <div class="button-box">
